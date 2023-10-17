@@ -1,0 +1,9 @@
+step1:Start
+step2:Read number of A value,B value,C value
+step3:If A value greater than B and A value greater than C value,then
+     3.1:Display A value is greateat number
+step4:If B value greater than A and B value greater than C value,then
+     4.1:Display B value is greatest number
+step5:If C value greater than A and C value greater than B value,then
+     5:1: Display C value is greatest number
+step6:Stop
