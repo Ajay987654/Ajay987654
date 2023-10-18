@@ -1,0 +1,16 @@
+A function that calls itself is known as recursion. Recursion is a process by which a function calls itself repeatedly until some specified 
+ condition has been satisfied. 
+ Pseudo code: 
+  
+ Main function: 
+ BEGIN 
+ GET n 
+ CALL fact = factorial(n) 
+ PRINT fact 
+ END 
+ Sub function factorial(n): 
+ IF (n==1) THEN 
+ fact=1 
+ RETURN fact 
+ ELSE 
+ RETURN fact = n*factorial (n-1
