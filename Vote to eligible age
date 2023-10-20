@@ -1,0 +1,7 @@
+step1 : start
+step2 : read age of the person and assign it AGE
+step3 : If AGE greater than or equal to 18
+      3.1: display the person eligible to vote
+step4 : else
+      4.1: display the person not eligible to vote
+step5 : stop
