@@ -1,0 +1,8 @@
+Distance between two points:
+
+x1=int(input ("Enter a value:")) 
+y1=int(input ("Enter a value:")) 
+x2=int(input ("Enter a value:")) 
+y2=int(input ("Enter a value:")) 
+distance=((x2-x1)**2+(y2-y1)**2)**0.5 
+print("The distance between two points is ", distance)
