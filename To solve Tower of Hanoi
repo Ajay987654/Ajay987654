@@ -1,0 +1,25 @@
+Let’s get to know about the puzzle TOWER OF HANOI.  
+ Tower Of Hanoi is the puzzle or it’s a game , where we have three rods and n number of disks. 
+ The main context of this game is to move the entire stack of disks from one rod to another rod, where we have , all the disks placed one above the other in the order of smaller to bigger disk.  
+ There are certain criteria’s/ rules to be followed for playing this awesome game !! 
+  
+ CRITERIA: 
+  
+ Only one disk should be moved at a time. 
+ Smaller disk should be placed above the larger disk and not vice-verse. 
+ All the stack of disk must be placed at the destination tower ( i.e, third rod) at the final stage of the game . 
+  
+ TOWER OF HANOI 
+ PROCESS IDEA: 
+  
+ Consider R1, R2, R3 as tower rods and for an instance let’s imagine of 3 disks , placed in source tower. 
+  
+ STEP 1: Move the Disk1 to R3 & Disk2 to R2 
+  
+ STEP 2: Move Disk1 to R2. 
+  
+ STEP 3 : Move Disk3 to R3 . 
+  
+ STEP 4: Move Disk1 to R1 
+  
+ STEP 5: Move Disk2 to R3 & Move Disk1 to R3 .
