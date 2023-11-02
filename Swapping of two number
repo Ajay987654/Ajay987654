@@ -1,0 +1,31 @@
+# Algorithm 
+ ''' 
+ --------- 
+ Step 1:start  
+ Step 2:assign a as 10,b as 20 
+ Step 3:assign c  
+ Step 4:swap c as b , b as a , a as c 
+ Step 5:print a,b 
+ Step 6:stop 
+ ''' 
+ # Pseudocode 
+ '''                                                                                   
+ ---------- 
+ START 
+    ASSIGN a=10 , b=20 
+    ASSIGN c  
+    c=b 
+    b=a 
+    a=c 
+    PRINT a,b 
+ STOP 
+ ''' 
+ # Implementation code 
+  
+ a=10 
+ b=20 
+ c=b 
+ b=a 
+ a=c 
+ print("the swap of two numbers is") 
+ print(a,b)
