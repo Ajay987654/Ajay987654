@@ -1,0 +1,11 @@
+#An algorithm to solve the matrix multiplication
+
+STEP1 :   	START the program. 
+STEP 2:     give input of matrices A and B.
+STEP 3:     assign C be a new matrix with its own size.
+STEP 4:     calculate for i from 1 to m; 
+   4.2:     for j from 1 to n and for k from 1 to p
+STEP 5:     assign sum = 0. 
+STEP 6:     Set sum ← sum + Aik × B. kj Set Cij ← sum.
+STEP 6.1:   return c
+STEP 7:     STOP the program
