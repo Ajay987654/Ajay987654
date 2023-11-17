@@ -1,0 +1,17 @@
+Linear Algebra is the primary mathematical computation tool in Artificial Intelligence and in many other areas of Science and Engineering. With this field, you need to understand 4 primary mathematical objects and their properties:
+
+Scalars — a single number (can be real or natural).
+
+Vectors — a list of numbers, arranged in order. Consider them as points in space with each element representing the coordinate along an axis.
+
+Matrices — a 2-D array of numbers where each number is identified by 2 indices.
+
+Tensors — an N-D array (N>2) of numbers, arranged on a regular grid with N-axes. Important in Machine Learning, Deep Learning and Computer Vision.
+
+Eigenvectors & Eigenvalues — special vectors and their corresponding scalar quantity. Understand the significance and how to find them.
+
+Singular Value Decomposition — factorization of a matrix into 3 matrices. Understand the properties and applications.
+
+Principal Component Analysis (PCA) — understand the significance, properties, and applications.
+
+Properties such as the Dot product, Vector product and the Hadamard product are useful to know as well.
