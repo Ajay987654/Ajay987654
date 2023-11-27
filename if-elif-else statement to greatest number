@@ -1,0 +1,8 @@
+num1 = int(input("Enter a number1 value:",))
+num2 = int(input("Enter a number2 value:",))
+if num1>num2 :
+   print(num1,"is a greatest number than",num2)
+elif num2>num3 :
+   print(num2,"is a greatest number than",num3)
+else :
+   print(num3,"num3 is a greatest number")
