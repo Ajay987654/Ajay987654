@@ -1,0 +1,37 @@
+# Some sample code to help you get started
+
+# get input from user
+eb_number=int(input("Enter the TNEB Consumer Number"))
+
+# calculate the bill
+
+''''bill_amount= units_to_charge * unit_rate + fixed_charges'''
+
+# display the bill
+
+print("Tamilnadu Electricity Board")
+print('coustmer number:')
+bill_number=int(input('bill number:'))
+last_month_reading=int(input("last month reading:"))
+current_month_reading=int(input("curret month reading:"))
+total_amount=current_month_reading-last_month_reading
+print('total reading:',total_amount)
+u=total_amount
+print("utilized units",u)
+if u<100:
+  print('bill amount:0')
+if 100<u<=200:
+  print("bill amount:",u*1.5+30)
+if 100<u<=500:
+  if 101<=u<200:
+    print("bill amount:",u*1.5+30)
+  elif 200<u<=500:
+    print('bill amount:',u*3+30)
+if u>500:
+  if 100<u<200:
+    print("bill amount:",u*3.5+50)
+  elif 200<u<=500:
+    print("bill amount:",u*4.6+50)
+  elif u>500:
+    print('bill amount:',u*6.6+50)
+
